@@ -13,4 +13,3 @@ try {
     // Felhantering vid anslutningsproblem
     die("Failed to connect: " . $e->getMessage());
 }
-?>
