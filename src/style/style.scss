@@ -38,7 +38,7 @@ h2,
 h3,
 h4 {
   margin-bottom: 1.5rem;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   color: $color-white;
 }
 
@@ -67,7 +67,7 @@ main {
   }
 
   #title {
-    font: inherit;
+    font-family: $font-body;
     font-size: 0.75rem;
     border: 0.5px solid black;
     border-radius: $border-radius;
@@ -82,6 +82,15 @@ main {
     border: 0.5px solid black;
     border-radius: $border-radius;
     resize: vertical;
+  }
+
+  .titledes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .task-title {
+    font-weight: 800;
   }
 
   button {

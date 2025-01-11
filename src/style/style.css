@@ -28,7 +28,7 @@ h2,
 h3,
 h4 {
   margin-bottom: 1.5rem;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   color: #ffffff;
 }
 
@@ -57,7 +57,7 @@ main {
 }
 
 #title {
-  font: inherit;
+  font-family: "roboto", sans-serif;
   font-size: 0.75rem;
   border: 0.5px solid black;
   border-radius: 5px;
@@ -72,6 +72,15 @@ main {
   border: 0.5px solid black;
   border-radius: 5px;
   resize: vertical;
+}
+
+.titledes {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-title {
+  font-weight: 800;
 }
 
 button {
