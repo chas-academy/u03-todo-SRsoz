@@ -12,9 +12,11 @@
 
 
 <body>
-    <header>
+     <!-- An image with an ID for styling, representing a checklist -->
+    <header> 
         <img id="to-do" src="./assets/to-do-list.png" alt="Animated picture of a checklist">
     </header>
+            <!-- Main heading for the page -->
     <h1>
         YOUR PERSONALIZED CHECKLIST
     </h1>
